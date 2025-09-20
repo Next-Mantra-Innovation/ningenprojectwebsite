@@ -1,2 +1,2 @@
-Ningen Project - AI Human innovation projecy
+Ningen Project - AI Human innovation project
 
