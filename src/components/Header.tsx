@@ -5,7 +5,7 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 w-full bg-white/80 backdrop-blur-md z-50 border-b border-gray-200">
+    <header className=" top-0 w-full bg-white/80 backdrop-blur-md z-50 border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center space-x-2">
@@ -15,13 +15,13 @@ const Header = () => {
               {/*   */}
               {/*</div>*/}
               <div>
-                <img src="https://nextmantra.com/assets/NextMantra-Logo-NoBG-u0HW3lWa.png" alt="logo" style={{width:'50px'}}/>
+                <img src="https://nextmantra.com/assets/NextMantra-LogoOnly-ml-28GO1.png" alt="logo"
+                     style={{ width: '100px' }} />
               </div>
               {/*<span className="text-xl font-bold text-gray-900">Next Mantra</span>*/}
             </a>
             {/*<div className="w-10 h-10 bg-gradient-to-r from-purple-500 to-blue-500 rounded-lg flex items-center justify-center">*/}
             {/*  /!*<Zap className="w-6 h-6 text-white" />*!/*/}
-
 
 
             {/*</div>*/}
@@ -37,7 +37,8 @@ const Header = () => {
             <a href="#projects" className="text-gray-700 hover:text-purple-600 transition-colors">Projects</a>
             {/*<a href="#technology" className="text-gray-700 hover:text-purple-600 transition-colors">Technology</a>*/}
             {/*<a href="#team" className="text-gray-700 hover:text-purple-600 transition-colors">Team</a>*/}
-            <a href="#contact" className="bg-gradient-to-r from-purple-500 to-blue-500 text-white px-4 py-2 rounded-lg hover:from-purple-600 hover:to-blue-600 transition-all">
+            <a href="#contact"
+               className="bg-gradient-to-r from-purple-500 to-blue-500 text-white px-4 py-2 rounded-lg hover:from-purple-600 hover:to-blue-600 transition-all">
               Contact
             </a>
           </nav>
@@ -59,7 +60,8 @@ const Header = () => {
               <a href="#projects" className="text-gray-700 hover:text-purple-600 transition-colors">Projects</a>
               {/*<a href="#technology" className="text-gray-700 hover:text-purple-600 transition-colors">Technology</a>*/}
               {/*<a href="#team" className="text-gray-700 hover:text-purple-600 transition-colors">Team</a>*/}
-              <a href="#contact" className="bg-gradient-to-r from-purple-500 to-blue-500 text-white px-4 py-2 rounded-lg hover:from-purple-600 hover:to-blue-600 transition-all inline-block text-center">
+              <a href="#contact"
+                 className="bg-gradient-to-r from-purple-500 to-blue-500 text-white px-4 py-2 rounded-lg hover:from-purple-600 hover:to-blue-600 transition-all inline-block text-center">
                 Contact
               </a>
             </nav>

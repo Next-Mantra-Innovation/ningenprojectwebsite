@@ -1,12 +1,13 @@
 import React from 'react';
 import { Mail, MapPin, Phone, Send, Globe, Users } from 'lucide-react';
+import '../googleformembed.css';
 
 const Contact = () => {
   const locations = [
     {
-      city: "Estonia",
-      address: "",
-      type: "HQ"
+      city: 'Estonia',
+      address: '',
+      type: 'HQ',
     },
     // {
     //   city: "Zurich",
@@ -21,10 +22,10 @@ const Contact = () => {
   ];
 
   const partnerships = [
-    "Leading Universities",
-    "Research Institutions",
-    "AI Projects",
-    "Enterprise Partners"
+    'Leading Universities',
+    'Research Institutions',
+    'AI Projects',
+    'Enterprise Partners',
   ];
 
   return (
@@ -35,7 +36,8 @@ const Contact = () => {
             Connect With Us
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Whether you're interested in our research, want to collaborate, or explore partnership opportunities, we'd love to connect
+            Whether you're interested in our research, want to collaborate, or explore partnership opportunities, we'd
+            love to connect
           </p>
         </div>
 
@@ -44,7 +46,7 @@ const Contact = () => {
           <div>
             <div className="mb-8">
               <h3 className="text-2xl font-bold text-gray-900 mb-6">Get In Touch</h3>
-              
+
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
                   <Mail className="w-6 h-6 text-purple-500 mt-1" />
@@ -53,7 +55,7 @@ const Contact = () => {
                     <p className="text-gray-600">research [at] ningenproject.org</p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-start space-x-4">
                   <Users className="w-6 h-6 text-blue-500 mt-1" />
                   <div>
@@ -61,7 +63,7 @@ const Contact = () => {
                     <p className="text-gray-600">partners [at] ningenproject.org</p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-start space-x-4">
                   <Globe className="w-6 h-6 text-cyan-500 mt-1" />
                   <div>
@@ -95,7 +97,8 @@ const Contact = () => {
               <h3 className="text-2xl font-bold text-gray-900 mb-6">Partnership Types</h3>
               <div className="grid grid-cols-2 gap-3">
                 {partnerships.map((partnership, index) => (
-                  <div key={index} className="bg-gradient-to-r from-purple-500 to-blue-500 text-white px-4 py-2 rounded-lg text-center text-sm font-medium">
+                  <div key={index}
+                       className="bg-gradient-to-r from-purple-500 to-blue-500 text-white px-4 py-2 rounded-lg text-center text-sm font-medium">
                     {partnership}
                   </div>
                 ))}
@@ -178,16 +181,17 @@ const Contact = () => {
             {/*    <Send className="w-5 h-5 group-hover:translate-x-1 transition-transform" />*/}
             {/*  </button>*/}
             {/*</form>*/}
-            <iframe
-              frameBorder="0"
-              marginHeight="0"
-              marginWidth="0"
-              width="520"
-              height="700"
-              src="https://docs.google.com/forms/d/e/1FAIpQLSegIcNApaI7nlVXDbf3lQyJfDt7vskp4351wVypPzyLVHfY4g/viewform?usp=header"
+            <div className={'google-iframe-container'}>
+              <iframe
+                frameBorder="0"
+                marginHeight="0"
+                marginWidth="0"
+                height={'600'}
+                width={'100%'}
+                src="https://docs.google.com/forms/d/e/1FAIpQLSegIcNApaI7nlVXDbf3lQyJfDt7vskp4351wVypPzyLVHfY4g/viewform?usp=header"
 
-            ></iframe>
-
+              ></iframe>
+            </div>
 
           </div>
         </div>
