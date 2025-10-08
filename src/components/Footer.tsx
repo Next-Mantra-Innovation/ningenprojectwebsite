@@ -38,7 +38,7 @@ const Footer = () => {
 
               <div>
                 <h1 className="text-xl font-bold">Ningen Project</h1>
-                <p className="text-sm text-gray-400">by Next Mantra Innovation</p>
+                <p className="text-sm text-gray-400">by Agantra Inovatif </p>
               </div>
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed">
@@ -108,7 +108,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              <a href="http://nextmantra.com" target="_blank"> © 2025 Next Mantra Innovation OU.</a> All rights
+              <a href="http://nextmantra.com" target="_blank"> © 2025 Agantra Inovatif OÜ.</a> All rights
               reserved. Building intelligence infrastructure
             </p>
             {/*<div className="flex items-center space-x-2 mt-4 md:mt-0">*/}
