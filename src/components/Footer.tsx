@@ -33,7 +33,7 @@ const Footer = () => {
               <div
                 className="w-10 h-10 bg-gradient-to-r  rounded-lg flex items-center justify-center">
                 {/*<Zap className="w-6 h-6 text-white" />*/}
-                <img src="https://nextmantra.com/assets/NextMantra-LogoOnly-ml-28GO1.png" alt="brand" />
+                <img src="https://nextmantra.com/assets/Agantra-Inovatif-LogoOnly-BpSfsRwG.png" alt="brand" />
               </div>
 
               <div>
